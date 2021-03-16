@@ -22,7 +22,7 @@ export default {
 	props: ['list'],
 	components: { Icon },
 	data() {
-		const headerOptions = { class: "teal lighten-3 grey--text text--darken-4", align: 'center' }
+		const headerOptions = { class: "blue-grey lighten-5 lighten-3 grey--text text--darken-4", align: 'center' }
 		return {
 			headers: [
 				{ text: '번호', sortable: true, value: 'id', width: '10%', ...headerOptions },
